@@ -6,7 +6,7 @@
 . script/homebrew
 
 # Install GUI related cask using brew and cask itself 
-. script/cash_installs
+. script/cask_installs
 
 # Run the install (I'd like to pull this out of rake, eventually)
 rake install
