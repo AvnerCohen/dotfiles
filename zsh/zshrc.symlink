@@ -6,6 +6,7 @@ export ZSH=$HOME/.dotfiles
 export PROJECTS=~/Code
 export HSCODE=~/HSCode
 export GOPATH=~/go_path 
+export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 # source every .zsh file in this rep
 for config_file ($ZSH/**/*.zsh) [[ "$(basename $config_file)" == "completion.zsh" ]] || source $config_file
 
