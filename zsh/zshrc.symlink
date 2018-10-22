@@ -1,15 +1,13 @@
 #zmodload zsh/zprof
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
-
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code
 export HSCODE=~/HSCode
-export GOPATH=~/go_path 
+export GOPATH=~/go_path
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 # source every .zsh file in this rep
-for config_file ($ZSH/**/*.zsh) [[ "$(basename $config_file)" == "completion.zsh" ]] || source $config_file
-
+for config_file ($ZSH/**/*.zsh) [[ "$(basename $config_file)" == "completion.zsh" ]] ||source $config_file
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
 if [[ -a ~/.localrc ]]
@@ -28,19 +26,18 @@ else
   echo "skipped compint"
 fi
 
-# load every completion after autocomplete loads
 for config_file ($ZSH/**/completion.zsh) source $config_file
+
 PERL_MB_OPT="--install_base \"~/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=~/perl5"; export PERL_MM_OPT;
 
-## Setup rbenv as ruby manager
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
-#dig +short -t txt istheinternetonfire.com
 
 #source "$HOME/.antigen/antigen.zsh"
 #antigen-apply
 #antigen theme cloud
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 
 #zprof
