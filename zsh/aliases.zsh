@@ -7,3 +7,5 @@ alias pullall='for i in */.git; do ( echo $i; cd $i/..; git pull; ); done'
 alias history='history -100'
 alias pod='/Users/avner/.gem/ruby/2.3.0/bin/pod'
 alias md5sum="md5"
+alias ping="prettyping"
+alias airport="/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport"
