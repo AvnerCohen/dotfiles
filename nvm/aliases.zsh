@@ -20,7 +20,7 @@ npm() {
 }
 
 yarn() {
-    unset -f npm
+    unset -f yarn
     export NVM_DIR=~/.nvm
     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
     yarn "$@"
