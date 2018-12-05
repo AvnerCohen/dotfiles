@@ -29,17 +29,8 @@
         whitespace = nowarn
 [help]
 	autocorrect = 1
-#[mergetool "sublime"]
-#	cmd = subl -w $MERGED
-#	trustExitCode = false
-#[merge]
-#	tool = sublime
 [credential]
 	helper = osxkeychain
-#[diff
-#	tool = sdiff
-#[difftool "sdiff"]
-#	cmd = sdiff \"$LOCAL\" \"$REMOTE\"
 
 [diff]
   tool = meld
