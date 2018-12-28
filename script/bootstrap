@@ -8,6 +8,8 @@
 # Install GUI related cask using brew and cask itself 
 . script/cask_installs
 
+. script/install_console_tools
+
 # Run the install (I'd like to pull this out of rake, eventually)
 rake install
 

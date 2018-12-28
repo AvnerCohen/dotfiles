@@ -15,7 +15,7 @@ else
   echo "  + Homebrew found."
 fi
 
-# Install grc and coreutils
+brew install zsh
 brew install grc coreutils
 brew install ripgrep
 brew install git
