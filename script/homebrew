@@ -17,3 +17,16 @@ fi
 
 # Install grc and coreutils
 brew install grc coreutils
+brew install ripgrep
+brew install git
+brew install wget
+brew install curl
+brew link curl --force
+brew install git-extras
+brew install vim
+brew install hg
+brew install tree jpeg libpng freetype
+brew install automake autoconf openssl libyaml libxslt libtool unixodbc
+brew install python python3 readline
+pip install virtualenvwrapper
+

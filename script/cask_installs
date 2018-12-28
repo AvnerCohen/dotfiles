@@ -3,6 +3,11 @@ brew cask install slack
 brew cask install iterm2
 brew cask install slack
 brew cask install spectacle
-brew cask install google-drive
+brew cask install firefox
+brew cask install google-chrome
 brew cask install gimp
 brew cask install colloquy
+brew cask install vlc
+brew cask install android-file-transfer
+brew cask install caffeine
+
