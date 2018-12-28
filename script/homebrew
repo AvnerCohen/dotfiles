@@ -28,5 +28,6 @@ brew install hg
 brew install tree jpeg libpng freetype
 brew install automake autoconf openssl libyaml libxslt libtool unixodbc
 brew install python python3 readline
+brew install youtube-dl
 pip install virtualenvwrapper
 
