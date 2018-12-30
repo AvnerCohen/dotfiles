@@ -3,11 +3,10 @@ const fs = require('fs')
 const path = require('path')
 
 var fileName = process.argv[2]
-console.log("Processing: " +fileName)
+console.log("Processing: " + fileName)
 var PREFIX = "file://"
 
 function createDir(folder) {
-	console.log("Create Lesson in " + folder)
 	if (!fs.existsSync(folder)) {
 	    fs.mkdirSync(folder, 0744)
 	}
@@ -36,7 +35,7 @@ function copyFiles(folderName) {
 
 }
 
-var folderName = new Date().toISOString().slice(0,10)
+var folderName = path.basename(fileName).replace(path.extname(fileName), "")
 createDir(folderName)
 var songCreated = copyFiles(folderName)
 console.log("Done, created " + folderName + ".")
