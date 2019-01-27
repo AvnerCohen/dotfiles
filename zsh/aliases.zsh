@@ -11,3 +11,4 @@ alias airport="/System/Library/PrivateFrameworks/Apple80211.framework/Versions/C
 alias mp3='cd ~/Documents/Music\ for\ LifeDance'
 alias music='f() { youtube-dl --extract-audio --audio-format mp3 $1 };f'
 alias lesson='f() {~/.dotfiles/script/lesson.js $1 };f'
+alias x='exit'
