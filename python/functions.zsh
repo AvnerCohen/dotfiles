@@ -1,4 +1,4 @@
 mkvenv(){
-      virtualenv -p $(asdf where python)/bin/python ~/.virtualenvs/$1
+       mkvirtualenv -p $(asdf where python)/bin/python $1
 }
 
