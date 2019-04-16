@@ -18,4 +18,4 @@ alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias gaut="echo '#Repo authors sorted by number of commit.' > AUTHORS && git shortlog -n -s -e | awk '{t=$1;$1=\"\"; printf ; print \" -  \" t \" commits.\"}' >> AUTHORS"
-
+alias jsindent='yarn prettier --single-quote --trailing-comma es5 --write "*.js"'
