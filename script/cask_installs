@@ -10,4 +10,4 @@ brew cask install colloquy
 brew cask install vlc
 brew cask install android-file-transfer
 brew cask install caffeine
-
+brew cask install launchrocket

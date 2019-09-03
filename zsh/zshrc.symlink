@@ -46,3 +46,13 @@ source $HOME/.poetry/env
 . $HOME/.asdf/asdf.sh
 
 . $HOME/.asdf/completions/asdf.bash
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/avner/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/avner/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/avner/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/avner/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /Users/avner/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/avner/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh
