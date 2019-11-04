@@ -9,7 +9,7 @@ alias md5sum="md5"
 alias ping="prettyping"
 alias airport="/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport"
 alias mp3='cd ~/Documents/Music\ for\ LifeDance'
-alias music='f() { youtube-dl --extract-audio --audio-format mp3 $1 };f'
+alias music='f() {~/.dotfiles/script/music $1 };f'
 alias lesson='f() {~/.dotfiles/script/lesson.js $1 };f'
 alias mkvenv="$(asdf where python)/bin/virtualenv"
 
