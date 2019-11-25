@@ -11,6 +11,5 @@ alias airport="/System/Library/PrivateFrameworks/Apple80211.framework/Versions/C
 alias mp3='cd ~/Documents/Music\ for\ LifeDance'
 alias music='f() {~/.dotfiles/script/music $1 };f'
 alias lesson='f() {~/.dotfiles/script/lesson.js $1 };f'
-alias mkvenv="$(asdf where python)/bin/virtualenv"
 
 alias x='exit'
