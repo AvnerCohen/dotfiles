@@ -6,4 +6,4 @@ export PYTHONDONTWRITEBYTECODE=1
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-. /usr/local/bin/virtualenvwrapper.sh
+#. /usr/local/bin/virtualenvwrapper.sh
